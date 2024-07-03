@@ -83,3 +83,19 @@ form span {
 main {
   flex: 1;
 }
+
+/* ---------------   AboutME  --------------------- */
+
+/* Developer Photo */
+
+.developer-photo {
+  width: 150px;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Creates a circular image if the width and height are equal */
+  display: block; /* Center the image */
+  margin: 0 auto; /* Center the image */
+}
+
+.about-me {
+  padding: 20px 20%;
+}
