@@ -6,22 +6,22 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" activeClassName="active">
-            About Me
+          <NavLink to="/" exact="true" activeclassname="active">
+            Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/portfolio" activeClassName="active">
+          <NavLink to="/portfolio" activeclassname="active">
             Portfolio
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active">
+          <NavLink to="/contact" activeclassname="active">
             Contact
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume" activeClassName="active">
+          <NavLink to="/resume" activeclassname="active">
             Resume
           </NavLink>
         </li>

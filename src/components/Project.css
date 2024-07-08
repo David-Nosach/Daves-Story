@@ -1,0 +1,49 @@
+.project {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  color: white;
+}
+
+.project .image-overlay {
+  background: none; /* Remove background color */
+  padding: 10px;
+  text-align: center;
+}
+
+.project .project-details {
+  padding: 10px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Add semi-transparent background for readability */
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.project span {
+  display: block;
+  margin: 5px 0;
+}
+
+.project a {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}

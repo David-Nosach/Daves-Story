@@ -1,0 +1,21 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.projects .project {
+  width: calc(50% - 10px); /* Adjust width for spacing between columns */
+  margin-bottom: 20px; /* Space between rows */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px; /* Adjust height as needed */
+}
+
+@media (max-width: 768px) {
+  .projects .project {
+    width: 100%;
+  }
+}
