@@ -26,15 +26,27 @@ const ContactForm = () => {
     }
   };
 
-  // Handle onBlur event to validate fields
   const handleBlur = (event) => {
     const { name, value } = event.target;
+
+    let newErrors = { ...errors };
+
+    // Check for non-empty values
     if (!value) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        [name]: `${name} is required`,
-      }));
+      newErrors[name] = `${name} is required`;
+    } else {
+      delete newErrors[name];
     }
+
+    // Email validation
+    if (name === "email" && value) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
+      if (!emailRegex.test(value)) {
+        newErrors.email = "Please enter a valid email address";
+      }
+    }
+
+    setErrors(newErrors);
   };
 
   // Handle form submission
