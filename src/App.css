@@ -43,6 +43,12 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
 .project {
   margin-bottom: 20px;
 }

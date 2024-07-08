@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <p>
         <a
-          href="https://github.com/yourprofile"
+          href="https://github.com/David-Nosach"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -13,7 +13,7 @@ const Footer = () => {
         </a>{" "}
         |
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/david-nosach/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -21,7 +21,7 @@ const Footer = () => {
         </a>{" "}
         |
         <a
-          href="https://stackoverflow.com/users/yourprofile"
+          href="https://stackoverflow.com/users/26265580/diddybop"
           target="_blank"
           rel="noopener noreferrer"
         >

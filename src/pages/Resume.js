@@ -6,7 +6,7 @@ const Resume = () => {
     <section className="resume">
       <h1>Resume</h1>
       <p>
-        <a href="../Resume/Resume-FrontEnd.png" download="Resume-FrontEnd.png">
+        <a href="/Resume-FrontEnd.pdf" download="Resume-FrontEnd.pdf">
           Download my resume
         </a>
       </p>
