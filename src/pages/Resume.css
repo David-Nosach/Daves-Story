@@ -1,0 +1,35 @@
+.resume {
+  max-width: 800px; /* Set a max-width for the resume for better readability */
+  margin-left: 3%; /* Center the resume section on the page */
+  padding: 20px; /* Padding around the content */
+  text-align: left; /* Align text to the left */
+}
+
+.resume h1 {
+  font-size: 2em; /* Large font size for the main title */
+  color: #333; /* Dark color for better visibility */
+}
+
+.resume h2 {
+  font-size: 1.5em;
+  color: #666; /* Slightly lighter color for subheadings */
+  margin-top: 20px; /* Space above headings */
+}
+
+.resume ul {
+  margin-left: 20px; /* Indent the list */
+  list-style-type: disc; /* Disc style for list items */
+}
+
+.resume li {
+  line-height: 1.6; /* Spacing between lines for better readability */
+}
+
+.resume a {
+  color: #0066cc; /* A nice blue for links */
+  text-decoration: none; /* No underline */
+}
+
+.resume a:hover {
+  text-decoration: underline; /* Underline on hover for better interaction visibility */
+}

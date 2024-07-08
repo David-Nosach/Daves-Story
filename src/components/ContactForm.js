@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import "./ContactForm.css"; // Ensure this path is correct
 
 const ContactForm = () => {
+  // State for form fields and errors
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -9,29 +11,53 @@ const ContactForm = () => {
 
   const [errors, setErrors] = useState({});
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
-  };
-
-  const handleBlur = (e) => {
-    const { name, value } = e.target;
-    if (!value) {
-      setErrors({ ...errors, [name]: `${name} is required` });
-    } else {
+  // Handle changes in input fields
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setForm((prevForm) => ({
+      ...prevForm,
+      [name]: value,
+    }));
+    // Remove any error for this field if it exists
+    if (errors[name]) {
       const newErrors = { ...errors };
       delete newErrors[name];
       setErrors(newErrors);
     }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
+  // Handle onBlur event to validate fields
+  const handleBlur = (event) => {
+    const { name, value } = event.target;
+    if (!value) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        [name]: `${name} is required`,
+      }));
+    }
+  };
+
+  // Handle form submission
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Perform validation and possibly prepare data for submission
+    const newErrors = {};
+    if (!form.name) newErrors.name = "Name is required";
+    if (!form.email) newErrors.email = "Email is required";
+    if (!form.message) newErrors.message = "Message is required";
+
+    setErrors(newErrors);
+
+    // Check if there are any errors before submitting
+    if (Object.keys(newErrors).length === 0) {
+      // Submit the data
+      console.log("Form Data:", form);
+      // Here you might want to send the data to a server
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="contact-form">
       <div>
         <label>Name</label>
         <input

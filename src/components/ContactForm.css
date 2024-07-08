@@ -1,0 +1,39 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ensure items start from the left */
+  width: 100%; /* Use 100% of its container's width */
+  margin: 0 auto; /* Center the form horizontally if needed */
+  text-align: left;
+}
+
+.contact-form div {
+  width: 100%; /* Ensure divs take the full width for consistent alignment */
+  margin-bottom: 20px; /* Space between form groups */
+}
+
+.contact-form label {
+  display: block; /* Display block to ensure it takes the full width above inputs */
+  margin-bottom: 5px; /* Space between the label and input field */
+  text-align: left; /* Align the text to the left */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 50vw; /* Width as 50% of the viewport width */
+  padding: 8px; /* Comfortable padding inside the input */
+  box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+.contact-form button {
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above the button */
+  align-self: flex-start; /* Align the button to the left */
+}
+
+.contact-form span {
+  color: red; /* Error message color */
+  display: block; /* Display block to ensure it appears on a new line */
+  text-align: left; /* Align error messages to the left */
+}

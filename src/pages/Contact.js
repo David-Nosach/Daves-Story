@@ -3,7 +3,14 @@ import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
-    <section>
+    <section
+      style={{
+        width: "100%",
+        padding: "20px",
+        display: "flex",
+        justifyContent: "flex-start",
+      }}
+    >
       <ContactForm />
     </section>
   );
