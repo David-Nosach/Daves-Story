@@ -6,6 +6,8 @@ Daves-Story is a React-based portfolio application designed to showcase the soft
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 55 04 PM" src="https://github.com/David-Nosach/Daves-Story/assets/91391933/4cca98a9-23c6-4dee-8881-c630279851ea">
 
+Live Link: https://main--daves-story.netlify.app/
+
 ## Features
 
 - **Responsive Design**: Ensures that the application is accessible on both desktop and mobile devices.
