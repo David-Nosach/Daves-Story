@@ -1,7 +1,11 @@
+/* General styles for the entire application */
+
+/* Center align text */
 .App {
   text-align: center;
 }
 
+/* Header styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +14,7 @@ header {
   color: white;
 }
 
+/* Navigation styles */
 nav ul {
   display: flex;
   list-style: none;
@@ -25,10 +30,12 @@ nav a {
   text-decoration: none;
 }
 
+/* Active link style */
 nav a.active {
   border-bottom: 2px solid #61dafb;
 }
 
+/* Section styles */
 section {
   padding: 20px;
 }
@@ -49,6 +56,7 @@ footer a {
   text-decoration: none;
 }
 
+/* Project component styles */
 .project {
   margin-bottom: 20px;
 }
@@ -58,6 +66,7 @@ footer a {
   height: auto;
 }
 
+/* Form styles */
 form div {
   margin-bottom: 10px;
 }
@@ -79,13 +88,15 @@ form span {
   font-size: 12px;
 }
 
-/* App.css */
+/* Additional styles for the App component */
+/* Flexbox layout for main content */
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
+/* Main content area */
 main {
   flex: 1;
 }

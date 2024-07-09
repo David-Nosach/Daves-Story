@@ -1,3 +1,4 @@
+/* Project component styles */
 .project {
   background-size: cover;
   background-position: center;
@@ -18,13 +19,13 @@
     0,
     0,
     0.5
-  ); /* Add semi-transparent background for readability */
+  ); /* semi-transparent background for readability */
 }
 
 .project h3 {
   margin: 0;
   font-size: 1.5em;
-  color: white; /* Ensure the title is white */
+  color: white; /* title color */
 }
 
 .project span {
@@ -40,5 +41,5 @@
 }
 
 .project a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline on hover */
 }

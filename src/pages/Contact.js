@@ -11,6 +11,7 @@ const Contact = () => {
         justifyContent: "flex-start",
       }}
     >
+      {/* Render the ContactForm component */}
       <ContactForm />
     </section>
   );

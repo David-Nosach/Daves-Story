@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 
+// Project component to display individual project details.
 const Project = ({ title, imageUrl, liveUrl, repoUrl, techStack }) => {
   return (
     <div className="project" style={{ backgroundImage: `url(${imageUrl})` }}>

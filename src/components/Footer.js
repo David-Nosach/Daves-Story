@@ -1,5 +1,7 @@
 import React from "react";
 
+// Defines the Footer component which renders the footer section of the application.
+// This component contains links to professional and social profiles.
 const Footer = () => {
   return (
     <footer>

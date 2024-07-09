@@ -11,9 +11,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      {/* Render the Header component */}
       <Header />
       <main>
         <Routes>
+          {/* Define routes for the application */}
           <Route path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />

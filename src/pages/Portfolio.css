@@ -1,3 +1,4 @@
+/* Styling for the portfolio section */
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -5,15 +6,17 @@
   padding: 20px;
 }
 
+/* Styling for individual project items */
 .projects .project {
-  width: calc(50% - 10px); /* Adjust width for spacing between columns */
-  margin-bottom: 20px; /* Space between rows */
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 300px; /* Adjust height as needed */
+  height: 300px;
 }
 
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .projects .project {
     width: 100%;

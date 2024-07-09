@@ -7,6 +7,7 @@ function AboutMe() {
       <h1>About Me</h1>
       <img src={developerPhoto} alt="Developer" className="developer-photo" />
       <p className="about-me">
+        {/* Introduction and personal description */}
         Hi! My name is David and I find pleasure in making all things web
         related. Having graduated with a useless degree of B.S. in business
         administration, I realzied I needed to learn a practical skill, and web

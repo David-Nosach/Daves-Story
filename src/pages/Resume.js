@@ -1,11 +1,12 @@
 import React from "react";
-import "./Resume.css"; // Ensure you have a CSS file for styling
+import "./Resume.css"; // Ensures you have a CSS file for styling
 
 const Resume = () => {
   return (
     <section className="resume">
       <h1>Resume</h1>
       <p>
+        {/* Download link for resume PDF */}
         <a href="/Resume-FrontEnd.pdf" download="Resume-FrontEnd.pdf">
           Download my resume
         </a>

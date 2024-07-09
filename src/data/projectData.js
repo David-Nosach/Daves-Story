@@ -1,11 +1,12 @@
+// Array of project objects containing details for each project
 const projectData = [
   {
     title: "Portfolio",
-    description: "My personal portfolio website.",
-    imageUrl: require("../images/Resume.png"),
-    liveUrl: "https://david-nosach.github.io/Web-Portfolio/",
-    repoUrl: "https://github.com/David-Nosach/Web-Portfolio",
-    techStack: "HTML/CSS",
+    description: "My personal portfolio website.", // Description of the project
+    imageUrl: require("../images/Resume.png"), // Image URL for the project thumbnail
+    liveUrl: "https://david-nosach.github.io/Web-Portfolio/", // Live URL for the project
+    repoUrl: "https://github.com/David-Nosach/Web-Portfolio", // GitHub repository URL
+    techStack: "HTML/CSS", // Technologies used for the project
   },
   {
     title: "Guess The Phrase",

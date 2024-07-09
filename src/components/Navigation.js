@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// Navigation component for rendering navigation links using React Router's NavLink.
 const Navigation = () => {
   return (
     <nav>
