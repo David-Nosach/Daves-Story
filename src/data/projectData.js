@@ -17,12 +17,12 @@ const projectData = [
     techStack: "HTML/CSS/JS",
   },
   {
-    title: "Employee Directory",
-    description: "An employee directory app.",
-    imageUrl: require("../images/Employee-Directory.png"),
-    liveUrl: "https://david-nosach.github.io/Employee-Directory/",
-    repoUrl: "https://github.com/David-Nosach/Employee-Directory",
-    techStack: "HTML/CSS/JS",
+    title: "TicTacToe",
+    description: "TicTacToe Game",
+    imageUrl: require("../images/TicTacToe.png"),
+    liveUrl: "https://tictactoe-334d.onrender.com/",
+    repoUrl: "https://github.com/Mehrnazkiani24/TicTacToe/tree/Davids",
+    techStack: "MERN/WebSocket/Render",
   },
   {
     title: "Health Quest",
