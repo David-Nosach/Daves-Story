@@ -7,10 +7,24 @@ const Resume = () => {
       <h1>Resume</h1>
       <p>
         {/* Download link for resume PDF */}
-        <a href="/Resume-FrontEnd.pdf" download="Resume-FrontEnd.pdf">
+        <a
+          href="/Resume-Full-Stack-Developer.pdf"
+          download="Resume-Full-Stack-Developer.pdf"
+        >
           Download my resume
         </a>
       </p>
+      <p>
+        {/* Link to view resume PDF */}
+        <a
+          href="/Resume-Full-Stack-Developer.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View my resume
+        </a>
+      </p>
+
       <h2>Front-end Proficiencies</h2>
       <ul>
         <li>HTML</li>
