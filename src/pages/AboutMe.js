@@ -10,14 +10,14 @@ function AboutMe() {
         {/* Introduction and personal description */}
         Hi! My name is David and I find pleasure in making all things web
         related. Having graduated with a useless degree of B.S. in business
-        administration, I realzied I needed to learn a practical skill, and web
+        administration, I realized I needed to learn a practical skill, and web
         development was an easy choice. Since then I have graduated from the
-        Frontend WebDevelopement Techdegree program with Team Treehouse, and
-        completed many personal projects in order to hone my skills as a web
-        developer. I am currently expanding my skillset learning new languages
-        and frameworks as I continue to build personal projects and software for
-        local businesses. Check out some of my projects down below and don't
-        hesitate to contact me.
+        Frontend WebDevelopement Techdegree program with Team Treehouse, as well
+        as the 6 month Full-Stack Coding BootCamp with the UC Berkeley Extension
+        Program. I am currently working on personal and professional projects as
+        well as grinding leetcode to further hone my skills as a full-stack
+        developer. Check out some of my projects down below and don't hesitate
+        to contact me.
       </p>
     </div>
   );
